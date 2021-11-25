@@ -8,6 +8,20 @@ echo task2('+',1,2,3,4);
 
 echo task2('-',1,2,3,4);
 echo task2('*',1,2,3,4);
-echo task2('/',1,2,3,4);
+echo task2('w',1,2,3,4);
 
-echo task3(5,7);
+echo task3(1.2,7);
+
+task4();
+task5();
+
+
+$text = 'Hello again!';
+
+$file = fopen('test.txt', 'w');
+
+fwrite($file, $text);
+
+fclose($file);
+
+task6('test.txt');
