@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f562ce5-54a5-469d-8829-e10d6385a23b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-hw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/html/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21HzZZfbIpQ9eDGWU3g3EUnyYU1" />
   <component name="ProjectViewState">
@@ -36,6 +40,8 @@
       <recent name="C:\OpenServer\domains\php-hw" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\php-hw\src" />
+      <recent name="C:\OpenServer\domains\php-hw\" />
       <recent name="C:\OpenServer\domains\php-hw\html" />
     </key>
   </component>
@@ -49,7 +55,7 @@
       <updated>1637612856793</updated>
       <workItem from="1637612858493" duration="3457000" />
       <workItem from="1637682766054" duration="15145000" />
-      <workItem from="1637860906818" duration="5819000" />
+      <workItem from="1637860906818" duration="10049000" />
     </task>
     <servers />
   </component>

@@ -1,20 +1,21 @@
 <?php
 
-function task1 ($array, $param) {
-    if ($param === true) {
+function task1 ($array, $param = false) {
+    if ($param == true) {
         foreach ($array as $string) {
             echo "<p>$string</p>";
         }
     } else {
-        $string = implode($array, ', ');
+        $string = implode(', ', $array);
         echo "<p>$string</p>";
     }
 }
 
+
 function task2 (...$args) {
     $sign = $args[0];
     $numbers = array_slice($args,1);
-    $res = 0;
+    $res = $numbers[0];
     switch ($sign) {
         case '+':
             $res = array_sum($numbers);
@@ -23,19 +24,17 @@ function task2 (...$args) {
             $res = $res - array_sum(array_slice($numbers, 1));
             break;
         case '*':
-            $res = 1;
             foreach ($numbers as $number) {
                 $res *= $number;
             }
             break;
         case '/':
-            $res = $numbers[0];
             foreach (array_slice($numbers, 1) as $number) {
                 $res /= $number;
             }
             break;
     }
-    echo $res;
+    echo "$res<br>";
 }
 
 function task3 ($num1, $num2) {
@@ -66,4 +65,5 @@ function task3 ($num1, $num2) {
 
 
 }
+
 
