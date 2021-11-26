@@ -8,10 +8,12 @@ switch ($day) {
     case 4:
     case 5:
     case 1:
-        echo "Это рабочий день"; break;
+        echo "Это рабочий день";
+        break;
     case 7:
     case 6:
-        echo "Это выходной день"; break;
+        echo "Это выходной день";
+        break;
     default:
         echo "Неизвестный день";
 }

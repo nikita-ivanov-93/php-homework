@@ -1,28 +1,28 @@
 <?php
 
-$bmw = array(
+$bmw = [
     "model" => "X5",
     "speed" => 120,
     "doors" => 5,
     "year" => "2015"
-);
-$toyota = array(
+];
+$toyota = [
     "model" => "Camry",
     "speed" => 140,
     "doors" => 5,
     "year" => "2016"
-);
-$opel = array(
+];
+$opel = [
     "model" => "Astra",
     "speed" => 100,
     "doors" => 3,
     "year" => "2014"
-);
-$cars = array(
+];
+$cars = [
     'bmw' => $bmw,
     'toyota' => $toyota,
     'opel' => $opel,
-);
+];
 echo 'CAR <br>';
 echo "<table>";
 echo
