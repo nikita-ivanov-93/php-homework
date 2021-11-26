@@ -2,12 +2,11 @@
 
 function task1 ($array, $param = false) {
     if ($param == true) {
+        return implode(', ', $array);
+    } else {
         foreach ($array as $string) {
             echo "<p>$string</p>";
         }
-    } else {
-        $string = implode(', ', $array);
-        echo "<p>$string</p>";
     }
 }
 
@@ -40,16 +39,14 @@ function task2 (...$args) {
 }
 
 function task3 ($num1, $num2) {
-    $cols = $num1;
-    $rows = $num2;
-    if (is_int($cols) && is_int($rows)) {
-        if ($cols > 0 && $rows> 0) {
+    if (is_int($num1) && is_int($num2)) {
+        if ($num1 > 0 && $num2> 0) {
             echo "<table border='1'>";
 
-            for ($tr = 1; $tr <= $rows; $tr++)
+            for ($tr = 1; $tr <= $num2; $tr++)
             {
                 echo "<tr>";
-                for ($td = 1; $td <= $cols; $td++){
+                for ($td = 1; $td <= $num1; $td++){
                     $res = $tr*$td;
                     if (($tr % 2) == 0 && ($td % 2) == 0) {
                         echo "<td>($res)</td>";
